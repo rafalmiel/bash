@@ -92,6 +92,7 @@ riscv*-freebsd*)	opt_bash_malloc=no ;;
 *-nsk*)		opt_bash_malloc=no ;;	# HP NonStop
 *-haiku*)	opt_bash_malloc=no ;;	# Haiku OS
 *-genode*)	opt_bash_malloc=no ;;	# Genode has no sbrk
+*-cykusz*)	opt_bash_malloc=no ;;	# Cykusz has no sbrk
 esac
 
 # memory scrambling on free()
